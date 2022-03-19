@@ -1,0 +1,23 @@
+.image_outline {
+    color: aliceblue;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 40px;
+    border: dotted;
+    border-radius: 10px;    
+}
+
+.div_align {
+    text-align: center;
+}
+
+.para_outline {
+    color: aliceblue;
+    outline-style: solid;
+    padding: 5px 10px 5px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .image_outline {
+        width: 90%;
+    }
+  }
